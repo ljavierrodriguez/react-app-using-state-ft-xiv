@@ -7,6 +7,7 @@ import '@popperjs/core';
 import 'bootstrap/dist/js/bootstrap.bundle';
 
 import App from './App';
+import Landing from './Landing';
 
 
-ReactDOM.render(<App name="Luis" />, document.querySelector('#root'));
+ReactDOM.render(<Landing />, document.querySelector('#root'));
